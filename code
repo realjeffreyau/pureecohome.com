@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PureEcoHome</title>
+  
+  <!-- Use google font for clean, modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet for styling -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+  <!-- Simple, centered layout -->
+  <div class="container">
+
+    <!-- Green logo or name for branding -->
+    <div class="header">
+      <h1>PureEcoHome</h1>
+    </div>
+
+    <nav>
+      <!-- Clean nav menu -->
+      <ul>
+        <li><a href="#water">Solar Water Heating</a></li>
+        <li><a href="#solar">Solar Energy</a></li> 
+        <li><a href="#wind">Wind Energy</a></li> 
+      </ul>
+    </nav>
+  
+    <main>
+
+      <!-- Main content sections -->
+      <section id="water">
+        <!-- Use images & graphics -->
+        <img src="solar-water-heater.jpg">
+        
+        <h2>Solar Water Heating</h2>
+        <p>Details...</p>     
+      </section>
+
+      <section id="solar">
+        <!-- Charts for data -->
+        <h2>Solar Energy Systems</h2>  
+        <div class="cost-chart"></div>
+        <p>Details...</p>   
+      </section>
+
+      <section id="wind">
+        <!-- Localized recommendations -->
+        <h2>Wind in Texas</h2>
+        <p>Details...</p>
+      </section>
+  
+    </main>
+
+    <footer>
+      <!-- Simple footer --> 
+      <p>&copy; PureEcoHome 2023</p>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
+
+
+/* Styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #006600;  
+}
+
+a {
+  color: #00b300;
+}
+
+img {
+  border: 1px solid #ddd;  
+}
