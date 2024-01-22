@@ -1,93 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>PureEcoHome</title>
-  
-  <!-- Use google font for clean, modern look -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureEcoHome</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
 
-  <!-- Stylesheet for styling -->
-  <link rel="stylesheet" type="text/css" href="styles.css">
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
 
+        section {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1>PureEcoHome.org</h1>
+    </header>
 
-  <!-- Simple, centered layout -->
-  <div class="container">
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            Green energy initiatives are crucial to reducing the negative effects of fossil fuels on the environment. Our website compiles information for homeowners on green and clean energy home solutions and other initiatives.
+        </p>
 
-    <!-- Green logo or name for branding -->
-    <div class="header">
-      <h1>PureEcoHome</h1>
-    </div>
+        <!-- Microhydropower -->
+        <div class="product">
+            <h2>Microhydropower</h2>
+            <p>
+                Microhydropower systems generate electricity from flowing water. They are suitable for locations with a water source such as a river or stream.
+            </p>
+        </div>
 
-    <nav>
-      <!-- Clean nav menu -->
-      <ul>
-        <li><a href="#water">Solar Water Heating</a></li>
-        <li><a href="#solar">Solar Energy</a></li> 
-        <li><a href="#wind">Wind Energy</a></li> 
-      </ul>
-    </nav>
-  
-    <main>
+        <!-- Solar Water Heating -->
+        <div class="product">
+            <h2>Solar Water Heating</h2>
+            <p>
+                Solar water heaters use sunlight to heat water for the home...
+            </p>
+        </div>
 
-      <!-- Main content sections -->
-      <section id="water">
-        <!-- Use images & graphics -->
-        <img src="solar-water-heater.jpg">
-        
-        <h2>Solar Water Heating</h2>
-        <p>Details...</p>     
-      </section>
+        <!-- Solar Energy Systems -->
+        <div class="product">
+            <h2>Solar Energy Systems</h2>
+            <p>
+                Solar photovoltaic (PV) systems convert sunlight into electricity...
+            </p>
+        </div>
 
-      <section id="solar">
-        <!-- Charts for data -->
-        <h2>Solar Energy Systems</h2>  
-        <div class="cost-chart"></div>
-        <p>Details...</p>   
-      </section>
-
-      <section id="wind">
-        <!-- Localized recommendations -->
-        <h2>Wind in Texas</h2>
-        <p>Details...</p>
-      </section>
-  
-    </main>
+        <!-- Wind Energy Systems -->
+        <div class="product">
+            <h2>Wind Energy Systems</h2>
+            <p>
+                Small residential wind energy systems can generate all or some of a home’s electricity needs...
+            </p>
+        </div>
+    </section>
 
     <footer>
-      <!-- Simple footer --> 
-      <p>&copy; PureEcoHome 2023</p>
+        &copy; 2024 PureEcoHome.org
     </footer>
-
-  </div>
-
 </body>
 
 </html>
-
-
-/* Styles */
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #333333;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-h1, h2 {
-  color: #006600;  
-}
-
-a {
-  color: #00b300;
-}
-
-img {
-  border: 1px solid #ddd;  
-}
